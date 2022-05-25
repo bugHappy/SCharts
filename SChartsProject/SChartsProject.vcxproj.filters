@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9b275f45-a137-414d-83dc-8f22e33a844e}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6707cee9-07aa-4aca-92aa-3ae73bf908bf}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{d83be8a6-6518-48a1-aca2-c7e07eee4b4e}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;manifest</Extensions>
+    </Filter>
+    <Filter Include="SoUI Resource">
+      <UniqueIdentifier>{4a742b66-4b75-4be8-9a1f-b612b6cf933c}</UniqueIdentifier>
+      <Extensions>idx;xml;png;gif;jpg;ico;lua;bmp</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="license.txt" />
+    <Text Include="readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SChartsProject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SCharts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SChartsProject.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SCharts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\soui_res.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="uires\uidef\init.xml">
+      <Filter>SoUI Resource</Filter>
+    </Xml>
+    <Xml Include="uires\values\color.xml">
+      <Filter>SoUI Resource</Filter>
+    </Xml>
+    <Xml Include="uires\values\skin.xml">
+      <Filter>SoUI Resource</Filter>
+    </Xml>
+    <Xml Include="uires\values\string.xml">
+      <Filter>SoUI Resource</Filter>
+    </Xml>
+    <Xml Include="uires\xml\dlg_main.xml">
+      <Filter>SoUI Resource</Filter>
+    </Xml>
+    <Xml Include="uires\xml\page.xml">
+      <Filter>SoUI Resource</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="uires\image\tab_main.png">
+      <Filter>SoUI Resource</Filter>
+    </Image>
+    <Image Include="uires\image\page_icons.png">
+      <Filter>SoUI Resource</Filter>
+    </Image>
+    <Image Include="uires\image\soui.ico">
+      <Filter>SoUI Resource</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="uires\uires.idx">
+      <Filter>SoUI Resource</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
